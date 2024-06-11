@@ -10,7 +10,7 @@
 | 2023-023346 | Axel Alvarez |
 
 ### Sitio web 
-https://axeljavier-alvarez.github.io/INTRODUCCION-TYPESCRIPT/
+https://axeljavier-alvarez.github.io/INTRODUCCION-POO-TYPESCRIPT/
 
 ### Descripcion del proyecto
-> 1. ¿Qué es TypeScript?
+> Realización de dos programas, uno para calcular el promedio de 3 números y el otro para calcular el area de un triangulo utilizando la programación orientada a objetos de Typescript.
