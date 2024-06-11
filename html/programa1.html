@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa POO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <br>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="../index.html">
+                <img src="../img/flecha.webp" class="flecha">
+            </a>
+        </div>
+        <br>
+        <br>
+        <main>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <form class="border p-5" id="formulario">
+                        
+                        <div class="mb-3">
+                            <label for="txtNumero1" class="form-label">Nota 1:</label>
+                            <input type="number" id="txtNumero1" name="txtNumero1" class="form-control" autocomplete="off">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="txtNumero2" class="form-label">Nota 2:</label>
+                            <input type="number" id="txtNumero2" name="txtNumero2" class="form-control" autocomplete="off">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="txtNumero3" class="form-label">Nota 3:</label>
+                            <input type="number" id="txtNumero3" name="txtNumero3" class="form-control" autocomplete="off">
+                        </div>
+
+                        <div class="mb-3">
+                            <button type="button" class="btn btn-outline-dark form-control" onclick="calcularPromedio()">Calcular Promedio</button>
+                        </div>
+                    </form>
+                    <center>
+                        <h2 id="datos">
+
+                        </h2>
+                    </center>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <br>
+
+
+  <script src="../js/programa1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

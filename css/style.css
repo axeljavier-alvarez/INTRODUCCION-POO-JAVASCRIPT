@@ -1,0 +1,29 @@
+body{
+    background-image: url('../img/img1.jpg');
+    text-decoration: none;
+}
+
+form{
+    background-color: #d1e7dd;
+    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.flecha{
+    width: 100px;
+}
+
+footer {
+    background-color: 	#332f2c;
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-size: 20px;
+}
+
+
+#resultados{
+    font-size: 28px;
+    color: darkblue;
+    font-weight: bold;
+}
