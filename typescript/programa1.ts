@@ -47,6 +47,8 @@ function obtenerDatos(){
 
 // FUNCION PROMEDIO
 function calcularPromedio() : void {
+    
     obtenerDatos();
         divDatos.textContent = promedioNumeros.promedio();
+
 }
